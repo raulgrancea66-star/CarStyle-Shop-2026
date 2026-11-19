@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CarStyle Shop – accesorii și îngrijire auto la prețuri accesibile. Magazin în pregătire.">
+  <title>CarStyle Shop | În curând</title>
+  <style>
+    :root{--red:#e32636;--dark:#101114;--panel:#191b20;--muted:#b9bbc2;--white:#f7f7f8}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--dark);color:var(--white);font-family:Arial,Helvetica,sans-serif;line-height:1.6}
+    a{color:inherit;text-decoration:none}
+    .wrap{width:min(1100px,92%);margin:auto}
+    header{position:sticky;top:0;z-index:5;background:rgba(13,14,17,.94);backdrop-filter:blur(10px);border-bottom:1px solid #292b31}
+    .nav{min-height:70px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand{font-size:1.35rem;font-weight:900;letter-spacing:.5px}.brand span{color:var(--red)}
+    nav{display:flex;gap:22px;color:#ddd;font-size:.94rem}
+    nav a:hover{color:var(--red)}
+    .hero{padding:78px 0 72px;background:linear-gradient(90deg,rgba(9,10,12,.96),rgba(9,10,12,.70)),url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1800&q=85') center/cover}
+    .eyebrow{color:#ff5966;text-transform:uppercase;font-weight:800;letter-spacing:2px;font-size:.78rem}
+    h1{font-size:clamp(2.5rem,7vw,5rem);line-height:1.02;margin:14px 0 18px;max-width:760px}
+    h1 span{color:var(--red)}
+    .hero p{max-width:620px;color:#e0e0e3;font-size:1.12rem}
+    .notice{display:inline-flex;align-items:center;gap:9px;margin-top:24px;padding:12px 17px;border:1px solid rgba(227,38,54,.65);background:rgba(227,38,54,.13);border-radius:8px;font-weight:800}
+    .dot{width:9px;height:9px;border-radius:50%;background:#ff4b59;box-shadow:0 0 12px #ff4b59}
+    .btn{display:inline-block;margin-top:25px;padding:12px 19px;border-radius:7px;background:var(--red);font-weight:800}
+    section{padding:62px 0}
+    .section-title{font-size:clamp(1.8rem,4vw,2.5rem);margin:0 0 10px}
+    .sub{color:var(--muted);max-width:720px;margin:0 0 28px}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .tile{background:var(--panel);border:1px solid #2b2d34;border-radius:12px;padding:23px}
+    .tile .num{font-size:.78rem;color:#ff5966;font-weight:900;letter-spacing:1px}
+    .tile h3{margin:9px 0 7px;font-size:1.16rem}
+    .tile p{margin:0;color:var(--muted);font-size:.94rem}
+    .about{background:#15171b;border-top:1px solid #25272d;border-bottom:1px solid #25272d}
+    .aboutbox{display:grid;grid-template-columns:1.2fr .8fr;gap:35px;align-items:center}
+    .promise{border-left:4px solid var(--red);padding:18px 20px;background:#1c1e23;border-radius:0 10px 10px 0;color:#e3e3e6}
+    footer{padding:28px 0;color:#9fa1a9;font-size:.88rem}
+    footer .foot{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+    @media(max-width:760px){.nav{align-items:flex-start;flex-direction:column;padding:15px 0}nav{gap:14px;flex-wrap:wrap}.hero{padding:60px 0}.grid{grid-template-columns:1fr}.aboutbox{grid-template-columns:1fr}section{padding:48px 0}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#acasa">CARSTYLE <span>SHOP</span></a>
+    <nav aria-label="Navigare">
+      <a href="#acasa">Acasă</a><a href="#categorii">Categorii</a><a href="#despre">Despre noi</a><a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="acasa">
+    <div class="wrap">
+      <div class="eyebrow">Stil. Îngrijire. Drum bun.</div>
+      <h1>Pregătim ceva <span>pentru mașina ta.</span></h1>
+      <p>Accesorii și îngrijire auto la prețuri accesibile. CarStyle Shop este în pregătire și va reveni cu o selecție de produse pentru pasionații auto.</p>
+      <div class="notice"><span class="dot"></span> MAGAZIN ÎN PREGĂTIRE – REVENIM ÎN CURÂND</div>
+      <br><a class="btn" href="#categorii">Descoperă categoriile planificate</a>
+    </div>
+  </section>
+
+  <section id="categorii">
+    <div class="wrap">
+      <h2 class="section-title">Ce pregătim</h2>
+      <p class="sub">Mai jos sunt doar exemple de categorii pe care intenționăm să le explorăm. Nu reprezintă produse aflate momentan în stoc sau disponibile pentru comandă.</p>
+      <div class="grid">
+        <article class="tile"><div class="num">01 / DETAILING</div><h3>Curățare interior</h3><p>Idei pentru produse de curățare și întreținere a interiorului auto.</p></article>
+        <article class="tile"><div class="num">02 / ÎNGRIJIRE</div><h3>Cosmetică auto</h3><p>Produse de îngrijire pentru bord, geamuri, caroserie și anvelope.</p></article>
+        <article class="tile"><div class="num">03 / ACCESORII</div><h3>Accesorii utile</h3><p>Accesorii practice care pot face fiecare călătorie mai comodă.</p></article>
+        <article class="tile"><div class="num">04 / DETAILING</div><h3>Unelte de detailing</h3><p>Perii, lavete și alte articole pentru îngrijirea atentă a mașinii.</p></article>
+        <article class="tile"><div class="num">05 / CONFORT</div><h3>Confort la drum</h3><p>Accesorii gândite pentru organizare și confort în timpul deplasărilor.</p></article>
+        <article class="tile"><div class="num">06 / NOUTĂȚI</div><h3>Selecție în dezvoltare</h3><p>Vom anunța selecția finală după ce stabilim colaborările cu furnizorii.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="despre">
+    <div class="wrap aboutbox">
+      <div>
+        <h2 class="section-title">Despre CarStyle Shop</h2>
+        <p class="sub">CarStyle Shop este un proiect aflat în etapa de pregătire, dedicat accesoriilor auto, detailingului și produselor de îngrijire auto. Lucrăm la identificarea furnizorilor și la stabilirea unei selecții potrivite.</p>
+      </div>
+      <div class="promise"><strong>Transparență înainte de toate.</strong><br>Nu acceptăm comenzi și nu încasăm plăți prin acest site. Produsele prezentate sunt doar exemple de categorii planificate, nu oferte comerciale.</div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <h2 class="section-title">Rămâi aproape</h2>
+      <p class="sub">Magazinul nu este încă deschis pentru comenzi. Revino în curând pentru noutăți despre lansarea CarStyle Shop.</p>
+      <div class="notice"><span class="dot"></span> COMENZILE NU SUNT DISPONIBILE ÎN ACEASTĂ ETAPĂ</div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <div><strong>CARSTYLE <span style="color:#e32636">SHOP</span></strong> · Accesorii și îngrijire auto</div>
+    <div>© 2026 CarStyle Shop. Proiect în pregătire.</div>
+  </div>
+</footer>
+</body>
+</html>
